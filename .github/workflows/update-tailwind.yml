@@ -14,7 +14,7 @@ jobs:
 
     - name: Update tailwind.css
       run: |
-        yarn upgrade tailwindcss
+        yarn upgrade --no-lockfile tailwindcss
         yarn build
 
     - name: Commit changes
